@@ -1,0 +1,28 @@
+PyMuPDF==1.24.10
+pyspark
+psycopg[binary]
+pytesseract
+Pillow
+
+# PaddleOCR (layout-aware OCR) — requires Python <=3.12
+# Install paddlepaddle first, then paddleocr.
+paddlepaddle
+paddleocr
+opencv-python
+numpy
+
+# Embeddings (open-source, local)
+sentence-transformers
+fastembed
+
+# Vector DB + config
+python-dotenv
+faiss-cpu
+rank-bm25
+
+# Backend API
+fastapi
+uvicorn[standard]
+
+# Local translation (Arabic -> English)
+argostranslate
